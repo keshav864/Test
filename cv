@@ -1,0 +1,599 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Access New Levels of Creative Freedom and Control With 3D-Powered Design
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            font-family: Calibre, Helvetica, sans-serif;
+            font-style: normal;
+            line-height: 1.4;
+            -webkit-font-smoothing: antialiased;
+            padding: 0;
+            margin: 0;
+            cursor: arrow-down;
+        }
+
+        .col-md-12 {
+            background-color: #F5F5F5F5;
+        }
+
+        /*.contact-title {
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 40px;
+    line-height:80px;
+}*/
+
+        .contact-caption-text {
+            font-size: 23px;
+            color: #272d2c;
+        }
+
+        #contact-map {
+            height: 450px;
+            width: 100%;
+            position: relative;
+        }
+
+        .contact-form {
+            background-color: #fafaff00;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+            bottom: 0px;
+            /* -webkit-box-shadow: 1px 2px 14px 0px rgba(0, 0, 0, 0.29); */
+            -moz-box-shadow: 1px 2px 14px 0px rgba(0, 0, 0, 0.29);
+            box-shadow: 1px 2px 14px 0px #fc0f00;
+        }
+
+        .contact-section {
+            margin-bottom: 40px;
+            margin-top: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e4e9e8;
+        }
+
+        .contact-section .contact-icon {
+            float: left;
+            margin-bottom: 20px;
+            display: inline-block;
+            font-size: 25px;
+            color: #34b2a4;
+            padding-right: 20px;
+            position: initial;
+        }
+
+        .contact-section .contact-info {
+            padding-top: 10px;
+            font-weight: 700;
+        }
+
+        .contact-social {}
+
+        .contact-social ul {}
+
+        .contact-social ul li {
+            float: left;
+        }
+
+        .contact-social ul li a {
+            font-size: 16px;
+            padding-right: 10px;
+            color: #6b6c6d;
+        }
+
+        .contact-social ul li a:hover {
+            color: #0084bf;
+        }
+
+        .location-block {
+            border-radius: 2px;
+            border: 1px solid #eaeaea;
+            padding: 30px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+
+        .location-content {}
+
+        .location-block ul {}
+
+        .location-block ul li {
+            line-height: 2.2;
+            font-size: 15px;
+        }
+
+        .location-icon {
+            color: #0084bf;
+            padding-right: 10px;
+            font-size: 15px;
+        }
+
+        .fa {
+            padding: 5px;
+            font-size: 20px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .cform {
+            position: relative;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .cform {
+                top: 10px;
+                position: relative;
+            }
+        }
+
+        /* On screens that are 992px wide or less, the background color is blue */
+        @media screen and (max-width: 992px) {
+            .cform {
+                position: relative;
+            }
+        }
+
+        .box-shadow {
+            -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+            -moz-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+            box-shadow: 0px 10px 20px 16px rgba(50, 50, 50, 0.52)
+        }
+
+        #lp-pom-box-150 {
+            display: block;
+            background: #ff4f1f;
+            -pie-background: rgba(37, 156, 167, 1);
+            border-style: none;
+            behavior: url(//d9hhrg4mnvzow.cloudfront.net/PIE.htc);
+            border-radius: 0px;
+            left: 0px;
+            top: 0px;
+            z-index: 36;
+            width: 100%;
+            height: 73px;
+            position: absolute;
+        }
+
+        .well {
+            background-color: #fff;
+        }
+
+        .arrow-down {
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid #ff4f1f;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"] {
+            -webkit-appearance: button;
+            cursor: pointer;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            background-color: #ff4f1f;
+        }
+
+        .btn-default {
+            color: #000;
+            background-color: #E0100E;
+            border-color: #E0100E;
+        }
+
+        .btn-default:hover {
+            color: #000;
+            background-color: #E0100E;
+            border-color: #E0100E;
+        }
+
+        .btn-lg,
+        .btn-group-lg>.btn {
+            font-family: futura_maxi_cg_demiregular, tahoma, arial, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 18px;
+            border-radius: 6px;
+        }
+
+        .btn-default,
+        .btn-primary,
+        .btn-success,
+        .btn-info,
+        .btn-warning,
+        .btn-danger {
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+            -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+        }
+
+        @media screen and (max-width: 992px) {
+            .col-md-offset-2 {
+                margin-left: 12.666667%;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .col-md-offset-2 {
+                margin-left: -0.333333%;
+            }
+        }
+
+
+        .col-md-8 {
+            width: 76.666667%;
+        }
+
+
+        ul {
+            list-style: none;
+        }
+
+        ul li::before {
+            content: "\2022";
+            color: #000;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-top: 1px solid #fc0f00;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container col-md-12">
+        <div style='background-color:#dcdcdc;'>
+            <div>
+                <a href='https://martechseries.com//' style='float:left;'>
+                    <img src="http://martechseries.com/wp-content/uploads/2017/03/LOGO-MAR-TECH-SERIES-1200x300-4.png"
+                        alt="martechseries" class="img-responsive" style="
+                                width: 250px; margin: 4%;" />
+                </a>
+                <a href='https://business.adobe.com/' style='float:right;'>
+                    <img src="https://resources.martechseries.com/mts-whitepapers/Adobe_Corporate_Horizontal_Lockup_Red_HEX.png"
+                        class="img-responsive" style="width:12%;float: inherit;margin-top: -70px; margin-bottom: 10px;">
+                </a>
+            </div>
+        </div>
+
+        <div class='clearfix'></div>
+        <div class='row' style='background-color:#fc0f00;'>
+            <center>
+                <h1 class="lplh-43">
+                    <span style="font-size:25px;">
+                        <strong>
+                            <span style="color:#5D3E5D">
+                                <h1
+                                    style="color:#FFFF;font-weight: bold;font-size: 30px;padding-top: 20px;padding-bottom: 20px;font-family: inherit;font-size: 27px;font-weight: 500;">
+                                    <strong> <em>Access New Levels of Creative Freedom and Control With 3D-Powered Design</em></strong>
+                                </h1>
+                            </span>
+                        </strong>
+                    </span>
+                </h1>
+
+                <!--<image src = "https://resources.martechseries.com/mts-whitepapers/A competitive CMS platform for a competitive market._banner.jpg" style ="width : 100%;" > -->
+            </center>
+
+        </div>
+        <hr style='border-color:#fc0f00;border-width: 2px 0;;'>
+        <div class="col-md-offset-2 col-lg-5 col-md-5 col-sm-12 col-xs-12">
+            <div class="contact-caption">
+                <div style='border:thin;  margin-top:20px;'>
+
+                    <br>
+                    
+                    <p style="width: 100%;font-size: 17px;">
+                        A product “shoot” without cameras. A dozen variations on a product design with just a few clicks of the button. A full set of packaging designs with no physical mockups. These are just a few of the possibilities 3D design offers today’s creative professionals. The result: Unprecedented creative freedom, scalability, and design quality—whether you’re a 3D expert or just getting started.
+                        <br><br>In the past, creating production-quality 3D designs required extensive training and complex software few brands—and even fewer individuals—could afford, not to mention state-of-the-art hardware to operate it.
+                        </p>
+                    <br />
+                </div>
+                <img class="fb-image-lg img-responsive"
+                    src="https://resources.martechseries.com/whitepapers/MTH-Adobe-Access-new-levels-of-creative-freedom-and-control-with-3D-powered-design.png"
+                    style="height: auto">
+            </div>
+            <div class='clearfix'></div><br />
+        </div>
+
+        <div class="col-md-offset-1 col-md-3 col-sm-12 col-xs-12 cform">
+            <div class="contact-form" style="margin-right: 15px; border-radius:10px; width: 337px; margin-bottom:25px">
+                <div class="row" style='margin:0px;'>
+                    <center>
+                        <!-- <h5 style=" color:#000;font-weight: bold; ">DON'T MISS OUT</h5> -->
+                        <h4 style=" color:#000;font-weight: bold; ">Download Now</h4>
+                        <hr />
+                        <center>
+                            <form METHOD="POST" action="sendmail-MTH-Adobe-Access-new-levels-of-creative-freedom-and-control-with-3D-powered-design.php"
+                                class="signup_form">
+                                <div class="Jumbotron">
+                                    <center>
+                                        <div>
+                                            <div class="row">
+                                                <input id="name" class="form-control" type="text" name="firstname"
+                                                    placeholder="First name" required="required" />
+                                            </div>
+                                        </div><br />
+                                        <div>
+                                            <div class="row">
+                                                <input id="name" class="form-control" type="text" name="lastname"
+                                                    placeholder="Last name" required="required" />
+                                            </div>
+                                        </div><br />
+                                        <div class="row">
+                                            <input id="email" class="form-control" type="email" name="email"
+                                                placeholder="Business Email" required="required" />
+                                        </div><br />
+                                        <div class="row">
+                                            <input id="text" class="form-control" type="text" name='work_phone'
+                                                placeholder="Phone Number" required="required" />
+                                        </div><br />
+                                        <div class="row">
+                                            <input id="Company" class="form-control" type="text" name="company"
+                                                placeholder="Company Name" required="required" />
+                                        </div><br />
+
+
+                                        <div class="row">
+                                            <select id="Title" name="job" class="form-control" required="">
+                                                <option value="">Job Title*</option>
+                                               
+                                                <option value="Architect">Architect</option>
+                                                <option value="Developer">Developer</option>
+                                                <option value="Educator">Educator</option>
+                                                <option value="Professional Staff">Professional Staff</option>
+                                                <option value="Support Staff">Support Staff</option>
+                                                <option value="Individual Contributor">Individual Contributor</option>
+                                                <option value="Consultant">Consultant</option>
+                                                <option value="Student">Student</option>
+                                                <option value="Self Employed">Self Employed</option>
+                                                <option value="Other">Other</option>
+                                            </select>
+                                        </div><br />
+                                        <div class="row">
+                                            <select name="companysize" class="form-control" id="companysize" size="1"
+                                                required="required">
+                                                <option value="">--Company Size--</option>
+                                                <option value="1-9">1-9</option>
+                                                <option value="10-99">10-99</option>
+                                                <option value="100-499">100-499</option>
+                                               
+                                                <option value="5000+">5000+</option>
+                                            </select>
+                                        </div>
+                                        <div class="row">
+                                            <label class="name"></label>
+                                            <select name="industry" id="industry" class="form-control"
+                                                required="required">
+                                                <option value="">Industry</option>
+                                                <option id="Advertising">Advertising</option>
+                                                <option id="Agriculture & Forestry">Agriculture & Forestry</option>
+                                                <option id="Construction">Construction</option>
+                                                <option id="Education - Higher Ed">Education - Higher Ed</option>
+                                                <option id="Education - K12">Education - K12</option>
+                                                <option id="Energy, Mining, Oil & Gas">Energy, Mining, Oil & Gas
+                                                </option>
+                                                <option id="Financial Services">Financial Services</option>
+                                                <option id="Government - Federal">Government - Federal</option>
+                                                <option id="Government - Local">Government - Local</option>
+                                              
+                                                <option id="Creative: Video">Creative: Video</option>
+                                                <option id="Customer Experience">Customer Experience</option>
+                                                <option id="Financial Services">eCommerce</option>
+                                                <option id="Education">Education</option>
+                                                <option id="Engineering/Development">Engineering/Development</option>
+                                                <option id="Executive/General Administration">Executive/General
+                                                    Administration</option>
+                                                <option id="Finance">Finance</option>
+                                                <option id="Human Resources">Human Resources</option>
+                                                <option id="IT: Desktop Applications">IT: Desktop Applications</option>
+                                                <option id="IT: Enterprise/Cloud Applications">IT: Enterprise/Cloud
+                                                    Applications</option>
+                                                <option id="IT: Mobile Applications">IT: Mobile Applications</option>
+                                                <option id="IT: Operations/General">IT: Operations/General</option>
+                                                <option id="IT: Security">IT: Security</option>
+                                                <option id="Journalism">Journalism</option>
+                                                <option id="Legal">Legal</option>
+                                                <option id="Marketing: Advertising">Marketing: Advertising</option>
+                                                <option id="Marketing: Automation/Ops">Marketing: Automation/Ops
+                                                </option>
+                                                <option id="Marketing: Brand">Marketing: Brand</option>
+                                                <option id="Marketing: Content Marketing">Marketing: Content Marketing
+                                                </option>
+                                                <option id="Marketing: Digital">Marketing: Digital</option>
+                                                <option id="Marketing: Email Marketing">Marketing: Email Marketing
+                                                </option>
+                                                <option id="Marketing: General">Marketing: General</option>
+                                                <option id="Marketing: Social Media">Marketing: Social Media</option>
+                                                <option id="Other">Other</option>
+                                                <option id="Procurement">Procurement</option>
+                                                <option id="Public Relations/Affairs/Communications">Public
+                                                    Relations/Affairs/Communications</option>
+                                                <option id="Public/Social Services">Public/Social Services</option>
+                                                <option id="Records/Forms Management">Records/Forms Management</option>
+                                                <option id="Research/Sciences/Forensics">Research/Sciences/Forensics
+                                                </option>
+                                                <option id="Sales">Sales</option>
+                                                <option id="Sales: Operations">Sales: Operations</option>
+                                                <option id="Services: Customer Support">Services: Customer Support
+                                                </option>
+                                                <option id="Services: Professional/Client">Services: Professional/Client
+                                                </option>
+                                                <option id="Training/Learning">Training/Learning</option>
+                                            </select>
+                                        </div><br>
+
+
+                                        <div class="row">
+                                            <input id="State" class="form-control" type="text" name="State"
+                                                placeholder="State" required="required" />
+                                        </div><br />
+                                        <div class="row">
+                                            <input id="postalcode" class="form-control" type="text" name="postalcode"
+                                                placeholder="zip" required="required" />
+                                        </div><br />
+
+                                        <div class="row">
+                                            <select name="country" class="form-control" id="country" size="1"
+                                                required="required">
+                                                <option value="">Country</option>
+                                                <option value="Afganistan">Afghanistan</option>
+                                                <option value="Albania">Albania</option>
+                                                <option value="Algeria">Algeria</option>
+                                                <option value="American Samoa">American Samoa</option>
+                                                <option value="Andorra">Andorra</option>
+                                                <option value="Angola">Angola</option>
+                                                <option value="Anguilla">Anguilla</option>
+                                                
+                                                <option value="Bahamas">Bahamas</option>
+                                                <option value="Bolivia">Bolivia</option>
+                                                <option value="India">India</option>
+                                                <option value="Iraq">Iraq</option>
+                                                <option value="Ireland">Ireland</option>
+                                                <option value="Isle of Man">Isle of Man</option>
+                                                <option value="Israel">Israel</option>
+                                                <option value="Italy">Italy</option>
+                                              
+                                                            <option value="Zambia">Zambia</option>
+                                                <option value="Zimbabwe">Zimbabwe</option>
+                                            </select>
+                                        </div><br />
+                                        <div class="row" style="/* width: 10; */ "><br />
+                                            <p style="font-size:14px;line-height: 15px;text-align:left;color:#32425e;">
+                                                <input id="optin" name="optin" type="checkbox"
+                                                    value="More information on our processing can be found in the....."
+                                                    required="required" aria-required="true"><span style="
+    font-size: 12px;"> <span>The <a href="https://www.adobe.com/uk/privacy/policy.html#info-share">Adobe family of
+                                                            companies</a> would like to bring you great content like
+                                                        this and keep you informed with <a
+                                                            href="https://www.adobe.com/uk/privacy/marketing.html#mktg-email">personalized</a>
+                                                        communications about Adobe’s products and services via email and
+                                                        telephone. By submitting this form, you agree to receive these
+                                                        communications at the email address and phone numbers you
+                                                        provided. See our <a
+                                                            href="https://www.adobe.com/uk/privacy/policy.html   ">Privacy
+                                                            Policy</a> for more details or to <a
+                                                            href="https://accounts.adobe.com/uk/">opt out</a> at any
+                                                        time.
+                                                    </span>
+                                            </p>
+                                            <br />
+                                            </span>
+                                        </div><br /><br />
+
+                                        <div><br />
+                                            <div class="row">
+                                                <center><input type="submit" value="Download" name="subscribe"
+                                                        id="download" class="btn btn-default btn-lg form-control"
+                                                        style='width: 50%;height: 50px; border: none;border-radius: 1rem;font-weight: 600;cursor: pointer;'>
+                                            </div>
+                                    </center>
+                                </div>
+                </div><br />
+                </center>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style='background-color:#000;margin: 0px;'>
+        <div class="col-sm-12 col-xs-12" style='padding: 20px 0 20px; '>
+            <center>
+                <span class="col-sm-12" style="float:left; font-size:14px; color:#fff;">3501, Jack Northrop Ave,
+                    Hawthorne, CA 90250.<br>Copyright © 2022 Martech Series<br><br>
+                    <p align="center">
+                        <a href="https://martechseries.com/privacy-policy/" style="color:white" target="_BLANK">Martech
+                            Series Privacy Policy</a>
+                    </p>
+                </span>
+            </center>
+        </div>
+    </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function (e) {
+            $('#download').click(function () {
+                var email = $('#email').val();
+                var reg = /^([\w-\.]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!abc.com)(?!xyz.com)(?!pqr.com)(?!rediffmail.com)(?!live.com)(?!me.com)(?!msn.com)(?!ymail.com)(?!123.com)(?!0-9.com)([\w-]+\.)+[\w-]{2,4})?$/;
+                if (reg.test(email)) {
+                    return 0;
+                }
+                else {
+                    alert('Please Enter Business Email Address');
+                    return false;
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
